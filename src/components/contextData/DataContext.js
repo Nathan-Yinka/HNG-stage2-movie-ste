@@ -12,7 +12,7 @@ const DataContext = ({children}) => {
     }
     else{
     url = 'https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1'
-    url = `https://api.themoviedb.org/3/trending/movie/day`
+    // url = `https://api.themoviedb.org/3/trending/movie/day`
     }
     const {data,loading,error}= CustomFetch(url,search)
 
